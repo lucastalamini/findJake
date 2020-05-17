@@ -117,11 +117,34 @@ h3 {
   color: var(--clr-primary-1);
 }
 
+.btn-play-again {
+  width: 50%;
+  margin-left: 5.5rem;
+  margin-top: 1.5rem;
+}
+
 /*
 =============== 
     Main elements
 ===============
 */
+
+.game-over {
+  display: grid;
+  place-content: center;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.jake-end-img {
+  padding-top: 1rem;
+  border-radius: 50%;
+  zoom: 1.5;
+}
+
+.game-over-hidden {
+  display: none;
+}
 
 .container {
   display: flex;

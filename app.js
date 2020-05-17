@@ -1,10 +1,12 @@
 // Targeted elements
 
-const btn = document.querySelector(".btn");
+const btn = document.getElementById("btn");
 const container = document.querySelector(".container");
 const jake = document.querySelector(".jake-img");
 const jakeImg = document.querySelector(".img");
 const audio = new Audio("/bells.mp3");
+const gameOver = document.querySelector(".game-over");
+const btnPlayAgain = document.getElementById("btn-play-again");
 
 // Random Number for positioning
 
@@ -34,10 +36,20 @@ btn.addEventListener("click", function () {
   jakeImg.style.left = `${getRandomLeft()}%`;
 });
 
-// Show Jake when he is clicked
+// Show Jake when he is clicked and exhibit game over page
 jakeImg.addEventListener("click", function () {
   jake.classList = "jake-img";
+  gameOver.classList.remove("game-over-hidden");
 });
+
+// Reload the page to play again
+btnPlayAgain.addEventListener("click", refreshPage);
+
+// Refresh page function
+
+function refreshPage() {
+  window.location.reload();
+}
 
 // Mouse Over Alert
 

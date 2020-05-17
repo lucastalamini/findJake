@@ -12,6 +12,18 @@
 
       Your browser does not support the audio element.
     </audio>
+    <div class="game-over game-over-hidden">
+      <h1>Congratulations, you won!</h1>
+      <img
+        src="jake-end.jpg"
+        alt="jake-end"
+        width="256px"
+        class="jake-end-img"
+      />
+      <button class="btn btn-play-again" id="btn-play-again">
+        Play again!
+      </button>
+    </div>
     <div class="img-container">
       <div class="container">
         <h3>Find Jake!</h3>
@@ -19,7 +31,7 @@
           Move your cursor through the page to search for Jake. When you find
           him, just click him!
         </p>
-        <button class="btn">Start!</button>
+        <button class="btn" id="btn">Start!</button>
       </div>
       <div class="img" id="jake-img">
         <img src="jake.png" alt="jake" class="jake-img" />
