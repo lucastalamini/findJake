@@ -16,14 +16,14 @@ function getRandomTop() {
   return randomTop;
 }
 
-console.log(getRandomTop());
+// console.log(getRandomTop());
 
 function getRandomLeft() {
   randomLeft = Math.floor(Math.random() * 95);
   return randomLeft;
 }
 
-console.log(getRandomLeft());
+// console.log(getRandomLeft());
 // console.log(getRandomNumber());
 
 // Add Event Listeners
