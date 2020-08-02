@@ -189,6 +189,12 @@ h3 {
   cursor: pointer;
 }
 
+.copyright {
+  font-size: 0.8rem;
+  padding: 2rem;
+  margin-top: 16rem;
+}
+
 /*
 =============== 
     Media queries
@@ -216,5 +222,10 @@ h3 {
     max-width: 100px;
     max-height: 100px;
     overflow: hidden;
+  }
+
+  .copyright {
+    margin-top: 22rem;
+    font-size: 0.6rem;
   }
 }
