@@ -7,6 +7,7 @@ const jakeImg = document.querySelector(".img");
 const audio = new Audio("/bells.mp3");
 const gameOver = document.querySelector(".game-over");
 const btnPlayAgain = document.getElementById("btn-play-again");
+const copyright = document.querySelector(".copyright");
 
 // Random Number for positioning
 
@@ -32,6 +33,7 @@ console.log(getRandomLeft());
 btn.addEventListener("click", function () {
   container.classList = "container-hidden";
   jake.classList = "jake-img-hidden";
+  copyright.classList = "copyright-hidden";
   jakeImg.style.top = `${getRandomTop()}%`;
   jakeImg.style.left = `${getRandomLeft()}%`;
 });

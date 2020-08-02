@@ -195,6 +195,10 @@ h3 {
   margin-top: 16rem;
 }
 
+.copyright-hidden {
+  display: none;
+}
+
 /*
 =============== 
     Media queries
@@ -203,6 +207,9 @@ h3 {
 
 @media screen and (max-width: 680px) {
   .container {
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
     font-size: 0.9rem;
     width: 200px;
     height: 200px;
@@ -225,7 +232,7 @@ h3 {
   }
 
   .copyright {
-    margin-top: 22rem;
+    margin-top: 38rem;
     font-size: 0.6rem;
   }
 }
