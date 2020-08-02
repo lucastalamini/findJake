@@ -181,6 +181,7 @@ h3 {
   width: 100px;
   cursor: pointer;
   visibility: visible;
+  pointer-events: none;
 }
 
 .jake-img-hidden {
